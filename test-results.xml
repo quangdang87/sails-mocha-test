@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.2770" tests="34" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-04-12T21:31:52" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Accessories Controller" timestamp="2021-04-12T21:31:53" tests="6" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/controllers/AccessoriesController.test.js" time="0.0970" failures="0">
+    <testcase name="Accessories Controller get /accessories" time="0.0360" classname="get /accessories">
+    </testcase>
+    <testcase name="Accessories Controller post /accessories" time="0.0250" classname="post /accessories">
+    </testcase>
+    <testcase name="Accessories Controller SEARCH /accessories/1" time="0.0090" classname="SEARCH /accessories/1">
+    </testcase>
+    <testcase name="Accessories Controller UPDATE /accessories/1" time="0.0100" classname="UPDATE /accessories/1">
+    </testcase>
+    <testcase name="Accessories Controller DELETE /accessories/1" time="0.0110" classname="DELETE /accessories/1">
+    </testcase>
+    <testcase name="Accessories Controller DELETE ALL /accessories" time="0.0060" classname="DELETE ALL /accessories">
+    </testcase>
+  </testsuite>
+  <testsuite name="Car Controller" timestamp="2021-04-12T21:31:53" tests="5" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/controllers/CarsController.test.js" time="0.0360" failures="0">
+    <testcase name="Car Controller get /car" time="0.0060" classname="get /car">
+    </testcase>
+    <testcase name="Car Controller SEARCH /car/search" time="0.0100" classname="SEARCH /car/search">
+    </testcase>
+    <testcase name="Car Controller UPDATE /car/1" time="0.0070" classname="UPDATE /car/1">
+    </testcase>
+    <testcase name="Car Controller DELETE /car/1" time="0.0070" classname="DELETE /car/1">
+    </testcase>
+    <testcase name="Car Controller DELETE ALL /car" time="0.0060" classname="DELETE ALL /car">
+    </testcase>
+  </testsuite>
+  <testsuite name="Manufacturer Controller" timestamp="2021-04-12T21:31:53" tests="6" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/controllers/ManufacturerController.test.js" time="0.0460" failures="0">
+    <testcase name="Manufacturer Controller get /manufacturer" time="0.0080" classname="get /manufacturer">
+    </testcase>
+    <testcase name="Manufacturer Controller post /manufacturer" time="0.0070" classname="post /manufacturer">
+    </testcase>
+    <testcase name="Manufacturer Controller SEARCH /manufacturer/1" time="0.0090" classname="SEARCH /manufacturer/1">
+    </testcase>
+    <testcase name="Manufacturer Controller UPDATE /manufacturer/1" time="0.0070" classname="UPDATE /manufacturer/1">
+    </testcase>
+    <testcase name="Manufacturer Controller DELETE /manufacturer/1" time="0.0090" classname="DELETE /manufacturer/1">
+    </testcase>
+    <testcase name="Manufacturer Controller DELETE ALL /manufacturer" time="0.0060" classname="DELETE ALL /manufacturer">
+    </testcase>
+  </testsuite>
+  <testsuite name="Segment Controller" timestamp="2021-04-12T21:31:53" tests="6" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/controllers/SegmentController.test.js" time="0.0490" failures="0">
+    <testcase name="Segment Controller get /segment" time="0.0090" classname="get /segment">
+    </testcase>
+    <testcase name="Segment Controller post /segment" time="0.0070" classname="post /segment">
+    </testcase>
+    <testcase name="Segment Controller SEARCH /segment/1" time="0.0100" classname="SEARCH /segment/1">
+    </testcase>
+    <testcase name="Segment Controller UPDATE /segment/1" time="0.0070" classname="UPDATE /segment/1">
+    </testcase>
+    <testcase name="Segment Controller DELETE /segment/1" time="0.0090" classname="DELETE /segment/1">
+    </testcase>
+    <testcase name="Segment Controller DELETE ALL /segment" time="0.0070" classname="DELETE ALL /segment">
+    </testcase>
+  </testsuite>
+  <testsuite name="Variant Controller" timestamp="2021-04-12T21:31:53" tests="6" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/controllers/VarientController.test.js" time="0.0450" failures="0">
+    <testcase name="Variant Controller get /variant" time="0.0080" classname="get /variant">
+    </testcase>
+    <testcase name="Variant Controller post /variant" time="0.0070" classname="post /variant">
+    </testcase>
+    <testcase name="Variant Controller SEARCH /variant/search" time="0.0060" classname="SEARCH /variant/search">
+    </testcase>
+    <testcase name="Variant Controller UPDATE /variant/1" time="0.0070" classname="UPDATE /variant/1">
+    </testcase>
+    <testcase name="Variant Controller DELETE /variant/1" time="0.0110" classname="DELETE /variant/1">
+    </testcase>
+    <testcase name="Variant Controller DELETE ALL /variant" time="0.0060" classname="DELETE ALL /variant">
+    </testcase>
+  </testsuite>
+  <testsuite name="Accessories Models" timestamp="2021-04-12T21:31:53" tests="1" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/models/Accessories.test.js" time="0.0010" failures="0">
+    <testcase name="Accessories Models See what inside accessories" time="0.0010" classname="See what inside accessories">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cars Models" timestamp="2021-04-12T21:31:53" tests="1" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/models/Cars.test.js" time="0.0020" failures="0">
+    <testcase name="Cars Models See what inside Cars" time="0.0020" classname="See what inside Cars">
+    </testcase>
+  </testsuite>
+  <testsuite name="Manufacturer Models" timestamp="2021-04-12T21:31:53" tests="1" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/models/Manufacturer.test.js" time="0.0000" failures="0">
+    <testcase name="Manufacturer Models See what inside Manufacturer" time="0.0000" classname="See what inside Manufacturer">
+    </testcase>
+  </testsuite>
+  <testsuite name="Segment Models" timestamp="2021-04-12T21:31:53" tests="1" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/models/Segment.test.js" time="0.0010" failures="0">
+    <testcase name="Segment Models See what inside segment" time="0.0010" classname="See what inside segment">
+    </testcase>
+  </testsuite>
+  <testsuite name="Variant Models" timestamp="2021-04-12T21:31:53" tests="1" file="/Volumes/Documents/Learning/NodeJs/modules/sails-mocha-testing/test/models/Varient.test.js" time="0.0000" failures="0">
+    <testcase name="Variant Models See what inside variant" time="0.0000" classname="See what inside variant">
+    </testcase>
+  </testsuite>
+</testsuites>
